@@ -6,13 +6,13 @@
 
 var se = {};
 se.plweb = {};
-se.plweb.binaryTime = function (inputSettings) {
+se.plweb.binaryClock = function (inputSettings) {
 	"use strict";
 	
 	var settings = {}, // settings used 
 	defaultSettings = {
 		color: { on: "rgb(255,0,0)", off: "rgb(51,51,51)", inactive: "transparent" },
-		canvasId: "binaryTimeCanvas"
+		canvasId: "binaryClockCanvas"
 	}, //  if a setting not defined use default
 	height = 0 ,
 	width = 0,
