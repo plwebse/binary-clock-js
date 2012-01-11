@@ -29,9 +29,8 @@ Changing all the colors
 	} );
  
 Changing all the parameters 
- 
 	se.plweb.binaryClock( {
-		canvasId: "binaryClockDiv",
+		canvasId: "binaryClockCanvasId",
 		color: { 
 			on: "#FF0000",
 			off: "transparent",
