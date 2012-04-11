@@ -1,4 +1,5 @@
-### binary-clock-js is a javascript widget that displays time in a binary format.
+# binary-clock-js
+## a javascript widget that displays time in a binary format.
 
 ### Standard apperens
 
