@@ -2,20 +2,21 @@
 <html>
 <head>
 	<title>binary-clock-js</title>
-	<script src="binary-clock.js" type="text/javascript"></script>
+	<script type="module" defer src="binary-clock.js" type="text/javascript"></script>	
 </head>
 <body>
 	<canvas width="120" height="80" id="binaryClockCanvas"> </canvas>	
-	<script type="text/javascript">
-	// <![CDATA[
-		se.plweb.binaryClock();
-	// ]]>
+	<script type="module" defer >
+		import {binaryClock} from './binary-clock.js'
+		binaryClock();
 	</script>
 	<br />
 	<canvas width="240" height="160" id="binaryClockCanvas2"> </canvas>
-	<script type="text/javascript">
-	// <![CDATA[
-		se.plweb.binaryClock({
+	<script type="module" defer >
+
+		import {binaryClock} from './binary-clock.js'
+		
+		binaryClock({
 			canvasId: "binaryClockCanvas2",
 			color: { 
 				on: "#FFFF00",
@@ -23,7 +24,7 @@
 				inactive: "#CCCCCC"
 			}
 		});
-	// ]]>
+
 	</script>
 </body>
 </html>
